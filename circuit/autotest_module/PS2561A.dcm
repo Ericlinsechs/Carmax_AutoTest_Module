@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PS2561A
+D Quad Optocoupler, NPN Phototransistor Output, TTL compatible, DIP16/SMD16
+K NPN DC Dual Optocoupler
+F https://www.vishay.com/docs/83640/ild74.pdf
+$ENDCMP
+#
+#End Doc Library
