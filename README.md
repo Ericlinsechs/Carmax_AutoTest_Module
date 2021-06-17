@@ -58,6 +58,8 @@ Before start using it, there are some stuffs you need to prepare.
 
 7. Press the button again to start the test.
 
+### Hardware Set Up
+
 ### **CAUTION**
 - It's setting to be **non-stop** on each test function.
 - If you desire a halt during the test, press the button between the time a test round is done and next one haven't start yet.
