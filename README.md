@@ -19,26 +19,44 @@ Before start using it, there are some stuffs you need to prepare.
 1. Autotest module
 2. 12V power cable (alligator clip)
 3. Current monitor adapter
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/components.png" width="350" title="hover text">
+</p>
 
 - Some extra components are required :
 1. USB outlet power adapter
 2. USB to micro-USB cable
 3. 12v power supplyer
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/required.png" width="350" title="hover text">
+</p>
 
 ## Usage
 
 ### Getting Started
 1. Connect 5v power cable to the module.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/power_wire_connect.png" width="350" title="hover text">
+</p>
+
 2. Connect 12v power cable to power supplyer.
-3. Once 5v power cable is connected, you would see the welcome message on the displayer on the box.
-<p align="center">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/IMG_8619.png" width="350" title="hover text">
+3. Once 5v power cable is connected, you would see the **welcome message** on the displayer on the box.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/welcome.png" width="350" title="hover text">
 </p>
 
 5. After you press the button on the left side of the displayer, it would enter mode selecting process, choose which test function you want to run.
-6. When you finish your selecting, mode selecting process will be ended after 5 seconds (the countdown is on the right down side of the displayer).
-7. Before the test is running, you would see the **ready to test** message.
-8. Press the button again to start the test.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/mode_selecting.png" width="350" title="hover text">
+</p>
+
+7. When you finish your selecting, mode selecting process will be ended after 5 seconds (the countdown is on the right down side of the displayer).
+8. Before the test is running, you would see the **ready to test** message.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/ready_for_test.png" width="350" title="hover text">
+</p>
+
+10. Press the button again to start the test.
 
 ### **CAUTION**
 - It's setting to be **non-stop** on each test function.
