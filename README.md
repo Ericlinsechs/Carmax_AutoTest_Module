@@ -30,7 +30,7 @@ Before start using it, there are some stuffs you need to prepare.
 ### Getting Started
 1. Connect 5v power cable to the module.
 2. Connect 12v power cable to power supplyer.
-3. Once 5v power cable is connected, you would see the **welcome message** on the displayer on the box.
+3. Once 5v power cable is connected, you would see the ![welcome message](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/tree/main/image/IMG_8619.JPG) on the displayer on the box.
 4. After you press the button on the left side of the displayer, it would enter mode selecting process, choose which test function you want to run.
 5. When you finish your selecting, mode selecting process will be ended after 5 seconds (the countdown is on the right down side of the displayer).
 6. Before the test is running, you would see the **ready to test** message.
