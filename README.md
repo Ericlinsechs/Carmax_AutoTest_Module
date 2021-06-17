@@ -71,8 +71,15 @@ Before start using it, there are some stuffs you need to prepare.
 Only for code uploaded requirement would need to see this part.
 
 ## Prerequisites
+### Software
+- [ArduinoIDE](https://www.arduino.cc/en/software)
+- [Atom python editor](https://atom.io/) (addition)
+- python 3.7.4
+- [Anaconda3](https://www.anaconda.com/products/individual#Downloads)
+- conda environment
+## Getting Started
+### Installation
 - Copy this `git clone https://github.com/Ericlinsechs/Carmax_AutoTest_Module.git /.` to your terminal(cmd or so on) and exeuted.
-- Download [ArduinoIDE](https://www.arduino.cc/en/software)
 - Copy these [libraries](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/tree/main/code/Auto_Test_Box_code/libraries) into this path(default)`C:\Users\[Username]\Documents\Arduino\libraries`
 - Copy [auto_Test_Box_Program](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/tree/main/code/Auto_Test_Box_code/Auto_Test_Box_Program) dir into this path(default)`C:\Users\[Username]\Documents\Arduino`
-## Getting Started
+
