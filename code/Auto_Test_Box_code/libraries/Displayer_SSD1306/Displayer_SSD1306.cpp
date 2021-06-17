@@ -116,6 +116,22 @@ void Displayer_SSD1306::CurrentMonitor_10sec_display() {
     display.display();
 }
 
+void Displayer_SSD1306::welcome_message_displayer() {
+    display.clearDisplay();
+    display.setFont();
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(0, 0);
+    display.print("Welcome to Carmax");
+    display.setCursor(0, 12);
+    display.print("Auto Test Program");
+    display.setCursor(0, 36);
+    display.print("Press the button");
+    display.setCursor(0, 48);
+    display.print("to select mode");
+    display.display();
+}
+
 void Displayer_SSD1306::Initialization_setting(bool flag, uint8_t countdown) {
     _mode = mode;
     _flag = flag;

@@ -32,6 +32,10 @@ int ShiftMode::_ShiftMode(uint8_t accPin, uint8_t revPin) {
     return _mode;
 };
 
+void ShiftMode::welcome_message() {
+    while(buttonState == 0)
+        ssd1306.welcome_message_displayer();
+}
 /* The value would be change when the botton is pressed */
 void ShiftMode::button_function(uint8_t button_count) {
     _button_count = button_count;

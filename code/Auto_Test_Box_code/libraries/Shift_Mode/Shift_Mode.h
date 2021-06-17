@@ -35,6 +35,7 @@ private:
 public:
     ShiftMode();
     int _ShiftMode(uint8_t accPin, uint8_t revPin);
+    void welcome_message();
     void button_function(uint8_t button_count);
     void function_initialize();
 };

@@ -49,6 +49,7 @@ public:
     void AOAOffline_counter(uint8_t stateFlag);
     void CurrentMonitor_display(float current_mA);
     void CurrentMonitor_10sec_display();
+    void welcome_message_displayer();
     void Initialization_setting(bool flag, uint8_t countdown);
     void WifiConnect();
     void Ready_interface();

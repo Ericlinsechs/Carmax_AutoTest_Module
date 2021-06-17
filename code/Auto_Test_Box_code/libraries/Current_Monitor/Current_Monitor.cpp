@@ -133,8 +133,8 @@ void CurrentMonitor::CurrentMonitor_initialize(uint8_t accPin, uint8_t revPin) {
     digitalWrite(_accPin, LOW);
     digitalWrite(_revPin, LOW);
     ina219.begin();
-    // ina219.setCalibration_32V_1A();
-    ina219.setCalibration_16V_400mA();
+    ina219.setCalibration_32V_1A();
+    // ina219.setCalibration_16V_400mA();
     Serial.println("currentmonitor initialize completed");
 }
 

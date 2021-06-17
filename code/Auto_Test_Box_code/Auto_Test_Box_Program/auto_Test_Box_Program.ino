@@ -1,8 +1,8 @@
 /*
  * Auto Test Box Program
- * Editor: Eric Lin 
+ * Editor: Eric Lin
  * Date: 2021/06/16
- * 
+ *
  * The auto-test box is a multi-function test tool,
  * The multi-function including:
  * 1. 深度測試
@@ -12,7 +12,7 @@
  * 5. 連續紀錄10秒電流值功能
  * Through press the button to decide which test would you like to execute.
  * Also, it's really flexible to combine other new test function if needed.
- * 
+ *
  */
 
 #include <Arduino.h>
@@ -51,12 +51,13 @@ void IRAM_ATTR buttonpressed() {
 
 void setup() {
     WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);                 // Disable brownout detector
-    Serial.begin(115200); 
+    Serial.begin(115200);
     currentmonitor.CurrentMonitor_initialize(ACCPIN, REVPIN);  // CurrentMonitor initialize
     Displayer_SSD1306();                                       // Oled Displayer SSD1306 initialize
     pinMode(BUTTONPIN, INPUT_PULLUP);
     attachInterrupt(BUTTONPIN, buttonpressed, FALLING);        // Setting button as a interrupt trigger
-    _mode = shiftmode._ShiftMode(ACCPIN, REVPIN);              // Entering mode selecting 
+    shiftmode.welcome_message();
+    _mode = shiftmode._ShiftMode(ACCPIN, REVPIN);              // Entering mode selecting
 }
 
 void loop() {
