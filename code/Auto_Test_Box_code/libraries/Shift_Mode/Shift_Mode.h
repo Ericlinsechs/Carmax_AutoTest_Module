@@ -23,7 +23,7 @@ class ShiftMode {
 private:
     uint8_t _accPin, _revPin;
     uint8_t _button_count;
-    uint8_t _lastbuttonState;
+    uint8_t _lastbuttonState = 1;
     uint8_t _countdown;
     byte _mode;
     bool _flag = true;
