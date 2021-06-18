@@ -89,7 +89,7 @@ Before start using it, there are some stuffs you need to prepare.
 
 3. You should see the current measurement on the webpage.
 <p align="left">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/10sec_currentmonitor.png" width="200" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/10sec_currentmonitor.png" width="300" title="hover text">
 </p>
 
 
@@ -102,13 +102,13 @@ Before start using it, there are some stuffs you need to prepare.
 2. Find [webcrawler_code.py](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/code/webcrawler_code/webcrawler_code.py) on your computer and open it.
 3. Create the a cvs file on your computer.
 <p align="left">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/csvfile_create.png" width="200" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/csvfile_create.png" width="50%" title="hover text">
 </p>
 
 5. Change the IP and the route of the cvs file you just created.
 <p align="left">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_IP_change.png" width="200" title="hover text">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_csv_route_change.png" width="200" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_IP_change.png" width="47%" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_csv_route_change.png" width="40%" title="hover text">
 </p>
 
 7. Run `pyhton [route]/webcrawler_code.py` on cmd and check the data in csv file.
