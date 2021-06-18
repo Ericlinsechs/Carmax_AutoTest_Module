@@ -78,8 +78,20 @@ Before start using it, there are some stuffs you need to prepare.
 #### Wifi Connecting
 - Due to upload current measurements onto website, wifi connecting is essential. 
 1. Connecting Wifi is required when running the function No.5, default wifi setting is Samsung Galaxy Noto 20, if you want to change wifi, please check [current_monitor.h](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/code/Auto_Test_Box_code/libraries/Current_Monitor/Current_Monitor.h).
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/wifi_id_password.png" width="200" title="hover text">
+</p>
+
 2. Connect the same Wifi as the auto-test box did on your computer, then search the IP on the website.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/IP.JPG" width="200" title="hover text">
+</p>
+
 3. You should see the current measurement on the webpage.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/10sec_currentmonitor.png" width="200" title="hover text">
+</p>
+
 
 #### Webcrawler
 - This part describes how we crawl the data from website and then save as a .csv file.
@@ -89,8 +101,17 @@ Before start using it, there are some stuffs you need to prepare.
   - `C:\Users\username\Anaconda3\Library\bin`
 2. Find [webcrawler_code.py](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/code/webcrawler_code/webcrawler_code.py) on your computer and open it.
 3. Create the a cvs file on your computer.
-4. Change the IP and the route of the cvs file you just created.
-5. Run `pyhton [route]/webcrawler_code.py` on cmd and check the data in csv file.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/csvfile_create.png" width="200" title="hover text">
+</p>
+
+5. Change the IP and the route of the cvs file you just created.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_IP_change.png" width="200" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_csv_route_change.png" width="200" title="hover text">
+</p>
+
+7. Run `pyhton [route]/webcrawler_code.py` on cmd and check the data in csv file.
 
 - [Tutorial Reference](https://ithelp.ithome.com.tw/articles/10202121)
 
