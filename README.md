@@ -79,7 +79,7 @@ Before start using it, there are some stuffs you need to prepare.
 - Due to upload current measurements onto website, wifi connecting is essential. 
 1. Connecting Wifi is required when running the function No.5, default wifi setting is Samsung Galaxy Noto 20, if you want to change wifi, please check [current_monitor.h](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/code/Auto_Test_Box_code/libraries/Current_Monitor/Current_Monitor.h).
 <p align="left">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/wifi_id_password.png" width="200" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/wifi_id_password.png" width="50%" title="hover text">
 </p>
 
 2. Connect the same Wifi as the auto-test box did on your computer, then search the IP on the website.
@@ -102,16 +102,16 @@ Before start using it, there are some stuffs you need to prepare.
 2. Find [webcrawler_code.py](https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/code/webcrawler_code/webcrawler_code.py) on your computer and open it.
 3. Create the a cvs file on your computer.
 <p align="left">
-  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/csvfile_create.png" width="50%" title="hover text">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/csvfile_create.png" width="60%" title="hover text">
 </p>
 
-5. Change the IP and the route of the cvs file you just created.
+4. Change the IP and the route of the cvs file you just created.
 <p align="left">
   <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_IP_change.png" width="47%" title="hover text">
   <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/webcrawler_csv_route_change.png" width="40%" title="hover text">
 </p>
 
-7. Run `pyhton [route]/webcrawler_code.py` on cmd and check the data in csv file.
+5. Run `pyhton [route]/webcrawler_code.py` on cmd and check the data in csv file.
 
 - [Tutorial Reference](https://ithelp.ithome.com.tw/articles/10202121)
 
