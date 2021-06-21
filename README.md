@@ -1,6 +1,7 @@
 # 自動化治具盒 Carmax Auto-test Module
 
-This module is featured by conbining several test functions into one single box, the functions of it contains :
+- Github URL : https://github.com/Ericlinsechs/Carmax_AutoTest_Module
+- This module is featured by conbining several test functions into one single box, the functions of it contains :
 1. 深度測試功能
 2. 布條紋測試功能
 3. AOA斷線測試功能
@@ -40,8 +41,21 @@ Before start using it, there are some stuffs you need to prepare.
 </p>
 
 2. Connecting 12v power cable to power supplyer.
-3. Connecting these two connector below to DA machine.
-4. Connecting to electronic object(ex: E-mirror) serially.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/12vpower.JPG" width="200" title="hover text">
+</p>
+
+3. Connecting the connector below to DA machine.
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/connector_location.JPG" width="200" title="hover text">
+</p>
+
+4. Connecting the Rev pin below to DA machine(connect to Pin No.2 from top right side of the connector).
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/Rev_pin.JPG" width="200" title="hover text">
+</p>
+
+5. Connecting to electronic object(ex: E-mirror) serially(Only function No.4 and No.5 needed).
 
 ### Getting Started
 1. Once 5v power cable is connected, you would see the **welcome message** on the displayer on the box.
