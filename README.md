@@ -128,7 +128,14 @@ Before start using it, there are some stuffs you need to prepare.
 - If you desire a halt during the test, press the button between the time a test round is done and next one haven't start yet.
 - Before function No.4 or No.5 is running, please make sure the voltage and current won't over the spec bellow :
   - **MAX voltage: 32v current: 1A (default)**
+# Pin Definition
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/datasheet/ESP32-Development-Board-Pinout.png" width="60%" title="hover text">
+</p>
 
+<p align="left">
+  <img src="https://github.com/Ericlinsechs/Carmax_AutoTest_Module/blob/main/image/layout.png" width="60%" title="hover text">
+</p>
 
 # Code Uploading Set Up (addition)
 Only for code uploaded requirement would need to check this chapter.
