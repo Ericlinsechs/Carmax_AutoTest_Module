@@ -37,8 +37,8 @@
 #define NUM_VALUE 10
 
 /* Setting your wifi id and password here */
-#define SSID "The Skywalker"
-#define PASSWORD "0933838970"
+#define SSID "Galaxy Note20"
+#define PASSWORD "12345678"
 
 extern const char *ssid;
 extern const char *password;
